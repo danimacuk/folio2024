@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dani Macuk - UX/UI Designer</title>
+    
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      dever
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-icing">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img
+            src="/img/brandlogo.png"
+            alt="Logo"
+            width="100px"
+            height="100%"
+            aria-current="page"
+            class="d-inline-block align-text-middle"
+          /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="contact-modal">
+      <!-- Modal -->
+      <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModallabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-4 text-darkchocolate" id="contactModallabel">
+                Get in Touch
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      Looking for a top-notch designer? Let me help bring your
+                      vision to life! I specialize in user experience & user
+                      interface design, graphic design, and branding.
+                    </p>
+                    <strong>Are you hiring? Let’s chat! ⬇</strong>
+                    <p>
+                      I’m currently seeking a full-time, remote role in UX/UI
+                      Design. Let’s see if we’re a match made in heaven!
+                    </p>
+                    <div class="row-sm pb-2"><button
+                      type="button"
+                      class="btn btn-raspberry"
+                      href="https://linkedin.com/in/dani-macuk"
+                    >
+                    <i class="bi bi-linkedin icing"></i> View my LinkedIn
+                    </button></div>
+                    
+                    <div class="row-sm">
+
+                    <button
+                      type="button"
+                      class="btn btn-outline-raspberry"
+                      href="mailto:dani.c.macuk@gmail.com"
+                    >
+                    <i class="bi bi-envelope-fill icing"></i> Email Me
+                    </button></div>
+                  </div>
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="contactYourName" class="form-label"
+                        >What's your name?</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="contactYourName"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contactYourEmail" class="form-label"
+                        >What's your email address?</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="contactYourEmail"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contactYourMessage" class="form-label"
+                        >What's your message?</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="contactYourMessage"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                    <div class="row mb-3 px-2">
+                      <button
+                      type="button"
+                      class="btn btn-raspberry"
+                      href="#"
+                    >
+                    <i class="bi bi-send-fill icing"></i> Send Message
+                    </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro">
+    <div class="container mt-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col">
+          <h2 class="lilHeader">Hi, I'm Dani!</h2>
+          <h1>I design stunning sites, apps, and experiences.</h1>
+          <p class="bigger-text">
+            I'm a UX/UI & graphic designer with a passion for accessibility and
+            diversity.
+          </p>
+          <p class="bigger-text">
+            My work packs a punch, and I love bringing unique, people-centered
+            products from idea to fruition. Let’s partner to create something
+            incredible! 💖
+          </p>
+        </div>
+        <div class="col-auto">
+          <img src="/img/me.png" />
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container mb-5">
+        <h2>My Portfolio</h2>
+        <h3 class="subtitle">Check out my fav projects ⬇️</h3>
+      </div>
+      <section class="container mb-5 mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col mb-5">
+            <h6>Group Travel Planning—simplified.</h6>
+            <div class="chipholder">
+              <button type="button" class="btn btn-outline-primary">iOS</button>
+              <button type="button" class="btn btn-outline-primary">App</button>
+              <button type="button" class="btn btn-outline-primary">
+                Branding
+              </button>
+            </div>
+            <div class="portfolio-item-metadata">
+              <p><span class="bolder">💾 Type:</span> Bootcamp Project<br/>
+                <span class="bolder">👩🏻‍💻 Role:</span> Solo UX/UI Designer</p>
+            </div>
+            <p>
+              Tripmates solves common group travel planning stressors, like
+              finding the best time to travel, and helping everyone stay
+              on-budget, inspired, and organized.
+            </p>
+            <button type="button" class="btn btn-primary">
+              <i class="bi-arrow-right"></i> View case study
+            </button>
+          </div>
+          <div class="col">
+            <img src="/img/tripmates.png" />
+          </div>
+        </div>
+      </section>
+
+      <section class="container mb-5 mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col">
+            <img src="/img/energygov.png" />
+          </div>
+          <div class="col">
+            <h6>Refocusing on The User: Energy.gov Redesign</h6>
+            <div class="chipholder">
+              <button type="button" class="btn btn-outline-primary">Web</button>
+              <button type="button" class="btn btn-outline-primary">Mobile</button>
+              <button type="button" class="btn btn-outline-primary">Redesign</button>
+            </div>
+            <div class="portfolio-item-metadata">
+              <p><span class="bolder">💾 Type:</span> Bootcamp Project<br/>
+                <span class="bolder">👩🏻‍💻 Role:</span> Solo UI Designer, UX Contributor</p>
+            </div>
+            <p>A redesign of the Department of Energy website that solves top common user pain points: finding resources for saving money and tax incentives.</p>
+            <button type="button" class="btn btn-primary">
+              <i class="bi-arrow-right"></i> View case study
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mt-5 mb-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col">
+            <h6>Oddysee: A judgment-free space for the weird and wild.</h6>
+            <div class="chipholder">
+              <button type="button" class="btn btn-outline-primary">iOS</button>
+              <button type="button" class="btn btn-outline-primary">App</button>
+              <button type="button" class="btn btn-outline-primary">
+                Branding
+              </button>
+            </div>
+            <div class="portfolio-item-metadata">
+              <p><span class="bolder">💾 Type:</span> Bootcamp Project<br/>
+                <span class="bolder">👩🏻‍💻 Role:</span> Lead UX/UI Designer</p>
+            </div>
+            <p><em>Oddysee</em> is the new home for paranormal enthusiasts to discuss, find, and share experiences.  Think Google Maps meets r/Paranormal.</p>
+            <button type="button" class="btn btn-primary">
+              <i class="bi-arrow-right"></i> View case study
+            </button>
+          </div>
+          <div class="col">
+            <img src="/img/oddysee.png" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="recommendations">
+      <div class="container mb-5">
+        <h2>Recommendations</h2>
+        <h3 class="subtitle">What my teammates say about me</h3>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-items-top">
+          <div class="col-7">
+            <div class="card bg-icing">
+              <div class="card-body">
+              <p>During my internship with Dani, I had the opportunity to witness
+                her adept leadership in various projects, including the
+                management of sites and coding functions aimed at enhancing user
+                accessibility. Her skillful approach made complex tasks seem
+                manageable, and her commitment to making technology more
+                accessible left a lasting impression on me. Her dedication to
+                these values, coupled with her impressive hard and soft skills,
+                makes her a role model for me.</p>
+              </div>
+              <div class="card-footer text-end">
+                <div class="w-75 float-end">
+                  <span class="quoteAttribute">- Chinasa Njoku, Computer Science Student @ North Carolina State University</span>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-icing">
+              <div class="card-body">
+                <p>Beyond her role as a designer, Dani emerged as a forward-thinking individual, consistently attuned to industry trends, communication technologies, and inclusive best practices. Without a doubt, Dani’s multifaceted skills and strategic mindset make her a valuable asset to any team fortunate enough to collaborate with her.</p>
+              </div>
+              <div class="card-footer text-end">
+                <div class="w-75 float-end">
+                  <span class="quoteAttribute">- Ivette Cortez, Project Manager @ Starbucks</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-icing">
+              <div class="card-body">
+              <p>Beyond the high quality of her work, Dani is simply an excellent
+                teammate. She’s generous with her support and encouragement and
+                is the definition of a dedicated ally. Dani’s natural talent and
+                instincts enriches teams and builds strong working relationships
+                that withstand the test of time!</p>
+              </div>
+              <div class="card-footer text-end">
+                <div class="w-100 float-end">
+                  <span class="quoteAttribute">- Tonya Pieske, Executive Director @ ChickTech</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-5"
+        >
+          <div class="col-md-4 mb-0 text-body-secondary">
+            <a class="footerHeader">Dani Macuk</a><br>
+            <a class="footerSubHeader">UX/UI Designer & Creative</a>
+          </div>
+
+          <div class="nav col-md-4 justify-content-end">
+            <div class="row">
+              <div class="col">
+            <div class="row text-end">
+              <div class="col"><a href="https://linkedin.com/in/dani-macuk" target="_blank"><i class="bi bi-linkedin text-icing" style="font-size: 1.75rem;"></i></a> <a href="https://github.com/danimacuk" target="_blank"><i class="bi bi-github text-icing" style="padding-left: 10px; font-size: 1.75rem;"></i></a></div>
+            </div>
+            <div class="row">Coded with love by Dani &copy; 2024</div></div></div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

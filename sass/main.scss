@@ -1,0 +1,21 @@
+// redefine bootstrap custom variables
+$primary: #D81159;
+
+// import functions & variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+// set new custom variables
+$profile-colors: (
+    "raspberry": #D81159,
+    "lemon": #FFED36,
+    "grape": #7209B7,
+    "darkchocolate": #141414,
+    "icing": #FFF3F0
+);
+
+// merge new colors w bootstrap variable map
+$theme-colors: map-merge($profile-colors, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
