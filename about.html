@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dani Macuk - UX/UI Designer</title>
+
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      dever
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/0a046297da.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-icing">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img
+            src="/img/brandlogo.png"
+            alt="Logo"
+            width="100px"
+            height="100%"
+            aria-current="page"
+            class="d-inline-block align-text-middle"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+                >Contact</a>
+            </li>
+            <li class="nav-item">
+                <a
+                class="nav-link"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#resumeModal"
+                >Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="contact-modal">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="contactModal"
+        tabindex="-1"
+        aria-labelledby="contactModallabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1
+                class="modal-title fs-4 text-darkchocolate"
+                id="contactModallabel"
+              >
+                Get in Touch
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      Looking for a top-notch designer? Let me help bring your
+                      vision to life! I specialize in user experience & user
+                      interface design, graphic design, and branding.
+                    </p>
+                    <strong>Are you hiring? Let’s chat! ⬇</strong>
+                    <p>
+                      I’m currently seeking a full-time, remote role in UX/UI
+                      Design. Let’s see if we’re a match made in heaven!
+                    </p>
+                    <div class="row-sm pb-2">
+                      <button
+                        type="button"
+                        class="btn btn-raspberry"
+                        href="https://linkedin.com/in/dani-macuk"
+                      >
+                        <i class="bi bi-linkedin icing"></i> View my LinkedIn
+                      </button>
+                    </div>
+
+                    <div class="row-sm">
+                      <button
+                        type="button"
+                        class="btn btn-outline-raspberry"
+                        href="mailto:dani.c.macuk@gmail.com"
+                      >
+                        <i class="bi bi-envelope-fill icing"></i> Email Me
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="contactYourName" class="form-label"
+                        >What's your name?</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="contactYourName"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contactYourEmail" class="form-label"
+                        >What's your email address?</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="contactYourEmail"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contactYourMessage" class="form-label"
+                        >What's your message?</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="contactYourMessage"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                    <div class="row mb-3 px-2">
+                      <button type="button" class="btn btn-raspberry" href="#">
+                        <i class="bi bi-send-fill icing"></i> Send Message
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume-modal">
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="resumeModal"
+          tabindex="-1"
+          aria-labelledby="resumeModallabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1
+                  class="modal-title fs-4 text-darkchocolate"
+                  id="resumeModallabel"
+                >
+                  My Resume
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="/img/daniresume.png" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="intro">
+      <div class="container mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col pe-5">
+            <h1>🤠 Nice to meet you</h1>
+            <p class="bigger-text">
+              My name is Dani, and I’m a designer, gamer, and houseplant enthusiast living in
+              Portland, OR.
+            </p>
+
+            <p class="bigger-text">
+              In 2023, I decided to fulfill my years-long dream of transitioning
+              to UX/UI design. I previously worked in marketing and brand design
+              with a focus on the non-profit and tech industries.
+            </p>
+
+            <p class="bigger-text">
+              Outside of work—and when I’m not gaming—I love to spend my time
+              reading (find me in the horror section 👻), dabbling in interior
+              design, and volunteering with the causes I’m passionate about.
+            </p>
+          </div>
+          <div class="col-auto">
+            <img src="/img/daniabout.png" alt="Two images of Dani in Iceland: one of her sitting in front of a scenic valley in and one of her standing in front of a rainbow painted road and light blue church">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skillsexpertise">
+      <div class="container mb-5">
+        <h2>Skills &amp; Expertise</h2>
+        <h3 class="subtitle">What I’m *really* good at</h3>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-5 justify-content-between">
+            <div id="skillsbox" class="card bg-grape shadow border-0 p-2 mb-5">
+              <div class="card-title pt-3 container">
+                  <div class="flex-row d-flex justify-content-between">
+                    <div class="flex-col-6">
+                      <h4 class="text-icing">Skills</h4>
+                    </div>
+                    <div class="flex-col-6">
+                      <button type="button" class="btn btn-primary">
+                        <i class="bi-download"></i>&nbsp; Full Resume
+                      </button>
+                    </div>
+                  </div>
+              </div>
+              <div class="card-body text-icing">
+                <h6>Tech &amp Design</h6>
+                <div class="container">
+                    <div class="flex-row d-flex justify-content-between">
+                        <div class="flex-col-6">
+                            <ul>
+                                <li>UI Design Systems</li>
+                                <li>Product Design</li>
+                                <li>Wireframing</li>
+                                <li>Prototyping</li>
+                                <li>UX Research</li>
+                            </ul>
+                        </div>
+                        <div class="flex-col-6">
+                            <ul>
+                                <li>Usability Testing</li>
+                                <li>HTML, CSS, Boostrap</li>
+                                <li>Graphic Design</li>
+                                <li>UX Writing & Editing</li>
+                                <li>Marketing & Branding</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <h6>Soft Skills</h6>
+                <div class="container">
+                    <div class="flex-row d-flex justify-content-between">
+                        <div class="flex-col-6">
+                            <ul>
+                                <li>Project Management</li>
+                                <li>Client Interfacing</li>
+                                <li>Developer Interfacing</li>
+                                <li>Diversity & Inclusion</li>
+                            </ul>
+                        </div>
+                        <div class="flex-col-6">
+                            <ul>
+                                <li>Collaboration</li>
+                                <li>Speaking & Presenting</li>
+                                <li>Brainstorming</li>
+                                <li>Leadership</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <h6>Design Tools</h6>
+                <img src="/img/figma.svg" class="filter-white designicons"/> &nbsp; <img src="/img/adobe-illustrator.svg" class="filter-white designicons"/> &nbsp; <img src="/img/adobe-photoshop.svg" class="filter-white designicons"/> &nbsp; <img src="/img/adobe-indesign.svg" class="filter-white designicons"/> &nbsp; <img src="/img/adobe-premiere.svg" class="filter-white designicons"/>
+              </div>
+            </div>
+            <h4>Education</h4>
+            <div class="container mt-3">
+                <div class="d-flex row justify-content-center">
+                    <div class="col-4">
+                        <h6 class="text-end">2023 - 2024</h6>
+                    </div>
+                    <div class="col-8">
+                        <strong>UX/UI Design Certificate</strong>
+                        <p>University of Oregon Continuing &amp; Professional Education</p>
+                    </div>
+                </div>
+                <div class="d-flex row justify-content-center">
+                    <div class="col-4">
+                        <h6 class="text-end">2017 - 2018</h6>
+                    </div>
+                    <div class="col-8">
+                        <strong>Web Design & Development Courses</strong>
+                        <p>Portland Community College</p>
+                    </div>
+                </div>
+                <div class="d-flex row justify-content-center">
+                    <div class="col-4">
+                        <h6 class="text-end">2009 - 2013</h6>
+                    </div>
+                    <div class="col-8">
+                        <strong>BA, Rhetoric & Media Studies</strong>
+                        <p>Willamette University</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-7">
+            <h4>Work Experience</h4>
+            <div id="workexperience" class="container mt-3">
+                <div class="d-flex row justify-content-center pb-3">
+                    <div class="col-4">
+                        <h6 class="text-end">2012 - Present</h6>
+                    </div>
+                    <div class="col-8">
+                        <strong>Graphic & Web Designer</strong><br>
+                        <em>Freelance &middot; Portland, OR</em>
+                        <p>I design print and digital materials, create and update websites, and consult with organizations to improve their branding. Past clients include <a href="https://www.tabibastyles.com/" target="_blank">Tabiba Styles</a>, <a href="https://portlandmodernquiltguild.com/" target="_blank">Portland Modern Quilt Guild</a>, and <a href="https://awppw.org">Association of Western Pulp and Paper Workers</a>.</p>
+                    </div>
+                </div>
+                <div class="d-flex row justify-content-center pb-4">
+                    <div class="col-4">
+                        <h6 class="text-end">2018 - 2023</h6>
+                    </div>
+                    <div class="col-8">
+                        <strong>Senior Brand Manager</strong><br>
+                        <em><a href="https://chicktech.org" target="_blank">ChickTech</a> &middot; Portland, OR</em><br>
+                        <p>I ideated and produced all brand and marketing materials. My proudest accomplishments include redesigning the ChickTech logo, brand, and website.</p>
+                        <p><em>&uarr; Promoted in 2023 &uarr;</em></p>
+                        <strong>Marketing Manager</strong><br>
+                        <em><a href="https://chicktech.org" target="_blank">ChickTech</a> &middot; Portland, OR</em>
+                    </div>
+                </div>
+                <div class="d-flex row justify-content-center pb-3">
+                    <div class="col-4">
+                        <h6 class="text-end">2016 - 2018</h6>
+                    </div>
+                    <div class="col-8">
+                        <strong>Marketing & Communications Manager</strong><br>
+                        <em><a href="https://impactnw.org" target="_blank">Impact NW</a> & <a href="https://ywcapdx.org" target="_blank">YWCA PDX</a> &middot; Portland, OR</em>
+                        <p>I managed the nonprofits' websites, created marketing materials, and supported fundraising events. My proudest accomplishment was partnering with a brand agency to conduct research & a brand revamp.</p>
+                        <p><em>&uarr; Promoted in 2016 &uarr;</em></p>
+                        <strong>Marketing & Communications Coordinator</strong><br>
+                        <em><a href="https://impactnw.org" target="_blank">Impact NW</a> & <a href="https://ywcapdx.org" target="_blank">YWCA PDX</a> &middot; Portland, OR</em>
+                    </div>
+                </div>
+                <div class="d-flex row justify-content-center pb-3">
+                    <div class="col-4">
+                        <h6 class="text-end">2013 - 2016</h6>
+                    </div>
+                    <div class="col-8">
+                        <strong>Marketing Assistant</strong><br>
+                        <em><a href="https://oregonclinic.com" target="_blank">The Oregon Clinic</a> &middot; Portland, OR</em>
+                        <p>I managed and updated the website, wrote digital content and blogs, produced a print and digital patient newsletter, and designed ad campaigns.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="values" class="">
+      <div class="container mb-5">
+        <h2>My Design Values</h2>
+        <h3 class="subtitle">Who I am & how I work</h3>
+        <p>
+          This list of values represents who I am—both at work and at home—and
+          aims to give you a more well-rounded view of how I approach my work. I
+          strive to make positive change in my community, and these values
+          together serve as my North Star to help me stay on track. Check out my
+          LinkedIn posts to learn more about how my values show up at work!
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-items-top">
+          <div class="col-3">
+            <div class="card bg-icing shadow border-0">
+              <div class="card-title">🔁 Practice conscientious evolution</div>
+              <div class="card-body">
+                <p>
+                  We can always improve, and making mistakes is part of the
+                  design cycle. I fearlessly try new things and keep a pulse on
+                  the latest developments in tech, social justice, and design.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card bg-icing shadow border-0">
+              <div class="card-title">
+                👀 Pay attention to the little things
+              </div>
+              <div class="card-body">
+                <p>
+                  Cohesive design relies of making sure the details are on
+                  point. From typography to color choices, spacing to
+                  animations, each element should be meticulously crafted.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card bg-icing shadow border-0">
+              <div class="card-title">💖 Embrace vulnerability</div>
+              <div class="card-body">
+                <p>
+                  Teams work best together when everyone feels safe, respected,
+                  and free to express themselves. I work to model authenticity &
+                  honesty and encourage these traits amongst my people.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card bg-icing shadow border-0">
+              <div class="card-title">🧐 Challenge assumptions, not people</div>
+              <div class="card-body">
+                <p>
+                  I strive to understand what’s worked (or not) before. I’m open
+                  to hearing all perspectives and help teams align towards a
+                  clearly articulated, shared goal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-5"
+        >
+          <div class="col-md-4 mb-0 text-body-secondary">
+            <a class="footerHeader">Dani Macuk</a><br />
+            <a class="footerSubHeader">UX/UI Designer & Creative</a>
+          </div>
+
+          <div class="nav col-md-4 justify-content-end">
+            <div class="row">
+              <div class="col">
+                <div class="row text-end">
+                  <div class="col">
+                    <a href="https://linkedin.com/in/dani-macuk" target="_blank"
+                      ><i
+                        class="bi bi-linkedin text-icing"
+                        style="font-size: 1.75rem"
+                      ></i
+                    ></a>
+                    <a href="https://github.com/danimacuk" target="_blank"
+                      ><i
+                        class="bi bi-github text-icing"
+                        style="padding-left: 10px; font-size: 1.75rem"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="row">Coded with love by Dani &copy; 2024</div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

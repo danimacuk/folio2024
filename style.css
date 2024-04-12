@@ -24,7 +24,7 @@ strong {
   font-weight: 700 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, #values .card-title {
   font-family: Arimo;
   font-weight: 600;
   letter-spacing: 4px;
@@ -102,12 +102,24 @@ h6 {
   margin-bottom: 25px;
 }
 
-p {
+p, strong, em {
   font-family: Nunito;
   font-size: 20px;
   line-height: normal;
   letter-spacing: 0%;
   font-weight: 300;
+}
+
+ul {
+  font-family: Nunito;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0%;
+  font-weight: 300;
+  list-style-type: none;
+  text-indent: 0;
+  margin-left: -10px;
+  padding-left: 0;
 }
 
 .bigger-text {
@@ -134,9 +146,28 @@ p {
   font-weight: 700;
 }
 
+#values .card-title, #values .card-body {
+  text-align: center;
+  padding: 15px 10px 0px 10px;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(11deg) brightness(103%) contrast(103%);
+}
+
+.designicons {
+  width: 35px;
+  height: 35px;
+}
+
+#skillsexpertise p, #skillsexpertise strong, #skillsexpertise em {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 /* MARGINS AND LAYOUT */
 
-#intro, #portfolio, #recommendations {
+#intro, #portfolio, #recommendations, #skillsexpertise, #values {
   padding: 0 10% 50px 10%;
 
 }
@@ -178,4 +209,23 @@ p {
 
 .nav-item {
   padding-left: 20px;
+}
+
+.aboutpics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 50px 0px 50px;
+}
+
+.aboutimage {
+  position: relative;
+  margin: 0 -50px;
+  z-index: 1;
+  height: auto;
+}
+
+.aboutimage img {
+  width: 240px;
+  height: auto;
 }

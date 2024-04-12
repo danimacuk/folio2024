@@ -64,7 +64,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="/about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Portfolio</a>
@@ -79,7 +79,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              
+              <a
+              class="nav-link"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#resumeModal"
+              >Resume</a>
             </li>
           </ul>
         </div>
@@ -174,6 +180,39 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume-modal">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="resumeModal"
+        tabindex="-1"
+        aria-labelledby="resumeModallabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1
+                class="modal-title fs-4 text-darkchocolate"
+                id="resumeModallabel"
+              >
+                My Resume
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img src="/img/daniresume.png" style="width: 100%;">
             </div>
           </div>
         </div>
@@ -298,7 +337,7 @@
       <div class="container">
         <div class="row justify-content-center align-items-top">
           <div class="col-7">
-            <div class="card bg-icing">
+            <div class="card bg-icing border-0">
               <div class="card-body">
               <p>During my internship with Dani, I had the opportunity to witness
                 her adept leadership in various projects, including the
@@ -315,11 +354,11 @@
                 </div>
               </div>
             </div>
-            <div class="card bg-icing">
+            <div class="card bg-icing border-0">
               <div class="card-body">
                 <p>Beyond her role as a designer, Dani emerged as a forward-thinking individual, consistently attuned to industry trends, communication technologies, and inclusive best practices. Without a doubt, Dani’s multifaceted skills and strategic mindset make her a valuable asset to any team fortunate enough to collaborate with her.</p>
               </div>
-              <div class="card-footer text-end">
+              <div class="card-footer text-end border-0">
                 <div class="w-75 float-end">
                   <span class="quoteAttribute">- Ivette Cortez, Project Manager @ Starbucks</span>
                 </div>
@@ -327,7 +366,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card bg-icing">
+            <div class="card bg-icing border-0">
               <div class="card-body">
               <p>Beyond the high quality of her work, Dani is simply an excellent
                 teammate. She’s generous with her support and encouragement and
