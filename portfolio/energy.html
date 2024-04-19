@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Energy.gov Case Study - Dani Macuk</title>
+
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      dever
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-icing">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img
+            src="/img/brandlogo.png"
+            alt="Logo"
+            width="100px"
+            height="100%"
+            aria-current="page"
+            class="d-inline-block align-text-middle"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#resumeModal"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="contact-modal">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="contactModal"
+        tabindex="-1"
+        aria-labelledby="contactModallabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1
+                class="modal-title fs-4 text-darkchocolate"
+                id="contactModallabel"
+              >
+                Get in Touch
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <p>
+                      Looking for a top-notch designer? Let me help bring your
+                      vision to life! I specialize in user experience & user
+                      interface design, graphic design, and branding.
+                    </p>
+                    <strong>Are you hiring? Let’s chat! ⬇</strong>
+                    <p>
+                      I’m currently seeking a full-time, remote role in UX/UI
+                      Design. Let’s see if we’re a match made in heaven!
+                    </p>
+                    <div class="row-sm pb-2">
+                      <button
+                        type="button"
+                        class="btn btn-raspberry"
+                        href="https://linkedin.com/in/dani-macuk"
+                      >
+                        <i class="bi bi-linkedin icing"></i> View my LinkedIn
+                      </button>
+                    </div>
+
+                    <div class="row-sm">
+                      <button
+                        type="button"
+                        class="btn btn-outline-raspberry"
+                        href="mailto:dani.c.macuk@gmail.com"
+                      >
+                        <i class="bi bi-envelope-fill icing"></i> Email Me
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="contactYourName" class="form-label"
+                        >What's your name?</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="contactYourName"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contactYourEmail" class="form-label"
+                        >What's your email address?</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="contactYourEmail"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contactYourMessage" class="form-label"
+                        >What's your message?</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="contactYourMessage"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                    <div class="row mb-3 px-2">
+                      <button type="button" class="btn btn-raspberry" href="#">
+                        <i class="bi bi-send-fill icing"></i> Send Message
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume-modal">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="resumeModal"
+        tabindex="-1"
+        aria-labelledby="resumeModallabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1
+                class="modal-title fs-4 text-darkchocolate"
+                id="resumeModallabel"
+              >
+                My Resume
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img src="/img/daniresume.png" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro">
+      <div class="container mt-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <img src="/img/energy_cover.png" />
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center mt-5">
+          <div class="col-7">
+            <h1>Energy.gov Redesign</h1>
+          </div>
+          <div class="col-5">
+            <img src="/img/asterisks1.png" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="chipholder">
+            <div class="chip btn-outline-primary">Web</div>
+            <div class="chip btn-outline-primary">Mobile</div>
+            <div class="chip btn-outline-primary">Redesign</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-7">
+          <h4 class="text-primary">Overview</h4>
+          <p>
+            The US Department of Energy addresses America’s energy,
+            environmental and nuclear challenges and aims to help the country
+            and its citizens gain safety and prosperity. Their website includes
+            news and press about the department’s accomplishments as well as
+            guides, incentives, and other resources about energy efficiency.
+          </p>
+          <p>
+            However, the current site is complex, with users finding it
+            overwhelming and struggling to find relevant resources. I redesigned
+            the site with a focus on helping users easily find the information
+            they need.
+          </p>
+        </div>
+        <div class="col-5">
+          <div class="card bg-icing border-0 shadow">
+            <div class="card-title">
+              <h4 class="text-primary">Project Details</h4>
+            </div>
+            <div class="card-body">
+              <div class="row justify-content-left">
+                <div class="col-6">
+                  <h6 class="text-primary subtitle">Role</h6>
+                  <p>UX/UI Designer</p>
+                </div>
+                <div class="col-6">
+                  <h6 class="text-primary subtitle">Timeline</h6>
+                  <p>Jan - Feb 2024</p>
+                </div>
+              </div>
+              <div class="row justify-content-left">
+                <div class="col-6">
+                  <h6 class="text-primary subtitle">Team</h6>
+                  <p>Dani Macuk<br />Faria Rahman<br />Nikita Wagenman</p>
+                </div>
+                <div class="col-6">
+                  <h6 class="text-primary subtitle">Tools Used</h6>
+                  <p>Figma, Canva, Google Docs, Zoom, Slack</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h4 class="text-primary">The Solution</h4>
+        <p>
+          After a thorough discovery and analysis, I found that solutions needed
+          to focus on helping users quickly find answers to and resources for
+          their queries. My redesign takes the multitude of resources and tools
+          available on Energy.gov and organizes them in an intuitive,
+          straightforward system, while giving users the ability to pinpoint
+          their searches and find the right info.
+        </p>
+      </div>
+      <div class="row justify-content-evenly my-3">
+        <h4 class="text-primary">Design Process</h4>
+        <div class="col">
+          <h6>Discover</h6>
+        </div>
+        <div class="col">
+          <img src="/img/arrow2.png" class="img-fluid" />
+        </div>
+        <div class="col">
+          <h6>Analyze</h6>
+        </div>
+        <div class="col">
+          <img src="/img/arrow2.png" class="img-fluid" />
+        </div>
+        <div class="col">
+          <h6>Ideate</h6>
+        </div>
+        <div class="col">
+          <img src="/img/arrow2.png" class="img-fluid" />
+        </div>
+        <div class="col">
+          <h6>Design</h6>
+        </div>
+        <div class="col">
+          <img src="/img/arrow2.png" class="img-fluid" />
+        </div>
+        <div class="col">
+          <h6>Test</h6>
+        </div>
+      </div>
+    </section>
+
+    <section id="discover">
+      <div class="container mb-5">
+        <h2>Discover</h2>
+        <p>
+          This project began as a bootcamp assignment to redo one of the US
+          government department websites with user accessibility and experience
+          in mind. My teammates and explored the site, immediately noticing how
+          complex it was. We all found that
+          <strong
+            >it was difficult to find information that matched our queries and
+            level of understanding.</strong
+          >
+        </p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-top">
+          <div class="col-6">
+            <h6>Research</h6>
+            <p>
+              To learn more about what could be improved, we evaluated the
+              site’s heuristics and conducted 6 user tests.
+            </p>
+
+            <p>
+              User tests included prompts asking them to find specific info
+              about government tax incentives and resources for energy
+              efficiency projects.
+            </p>
+            <p>
+              identified that a typical user of the site might access it with
+              the goal of finding info about electricity costs and efficiency
+              projects/incentives.
+            </p>
+            <p>
+              With this in mind, we interviewed users who were home owners or
+              renters looking for cost-efficient ways to reduce their energy
+              bills.
+            </p>
+          </div>
+          <div class="col-6">
+            <figure class="figure">
+                <img src="/img/energygov-current.gif" class="img-fluid figure-img img-fluid rounded" alt="A gif that scrolls down the homepage of Energy.gov, as captured in April 2024">
+            <figcaption class="figure-caption text-center">The homepage of Energy.gov, as captured in April 2024.</figcaption>
+              </figure>
+            
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h6 class="text-center">Interview Highlights</h6>
+        <div class="row">
+            <div class="col-7">
+                <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">“I would have given up and searched for this info on some other site a long time ago.”</div>
+            </div>
+            <div class="col-5">
+                <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">“It’s not too difficult to use for a tech-savvy person.”</div>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-4">
+                <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">“This website has all the side dishes but no main course.”</div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">“I like using the Energy Savings Hub to direct me to more relevant info.”</div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">“I had to search around the site a LOT to find relevant info to my query.”</div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analyze">
+        <div class="container">
+            <h2 class="text-primary">Analyze</h2>
+            <p>After we conducted user tests, I set off to analyze, ideate, design, and test on my own. It was quickly clear to me that improvements to the site needed to be made to help users find the right information. Three key issues jumped out:</p>
+            <div class="row">
+                <div class="col-4">
+                    <h6 class="text-center">Problem #1</h6>
+                    <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">It takes too long for users to find helpful, relevant information</div>
+                </div>
+                <div class="col-4">
+                    <h6 class="text-center">Problem #2</h6>
+                    <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">The homepage doesn’t help users navigate the site</div>
+                </div>
+                <div class="col-4">
+                    <h6 class="text-center">Problem #3</h6>
+                    <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Inconsistencies in layout and menus cause confusion</div>
+                </div>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center mt-5">
+        <div class="col-4">
+          <h6>User Persona</h6>
+          <p>I developed a persona to represent the average Energy.gov user and to guide me as I began to ideate solutions to user problems.</p>
+          <p>Daniel is a married homeowner with a comfortable salary who dreams of turning his house into a sustainable, cost-efficient home. He doesn’t always know where to start, so he seeks organized resources to guide him as he plans out the details of these projects.</p>
+        </div>
+        <div class="col-8">
+          <div class="card bg-icing border-0 shadow">
+            <div class="card-body">
+              <div class="row justify-content-left align-items-center">
+                <div class="col-6">
+                    <img src="/img/daniel-persona.png" class="img-fluid">
+                  <h5 class="text-primary mt-2">Daniel, 43</h6>
+                    <div class="chipholder">
+                  <div class="chip">Risk-Averse</div><div class="chip">Organized</div><div class="chip">Introverted</div><div class="chip">Handy</div>
+                </div>
+                </div>
+                <div class="col-6">
+                  <h6 class="text-primary subtitle">Needs & Goals</h6>
+                  <ul>
+                    <li>Save on energy costs</li>
+                        <li>Find available rebates & incentives for upgrades</li>
+                            <li>Figure out how to start a home energy efficiency project</li>
+                  </ul>
+                  <h6 class="text-primary subtitle">Pain Points</h6>
+                  <ul>
+                    <li>Has never taken on such a big home project before</li>
+                        <li>Not 100% sure what info will be most helpful to him</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <p>I knew that I had to keep the Department of Energy’s likely constraints in mind, too. I prioritized ideas that packed a punch for the user while also understanding the needs of the Department—namely, a space to spotlight the important work they do, and minimizing the need to substantially change how content is organized on the back-end within their CMS.</p>
+      </div>
+      <div class="row my-3">
+        <div class="col-6">
+            <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">How might we help homeowners and renters quickly find resources to reduce their energy use & cost?</div>
+        </div>
+        <div class="col-6">
+            <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">How might we help visitors discover relevant energy-saving info based on their goals and needs?</div>
+        </div>
+    </div>
+    </section>
+
+    <section id="ideate">
+        <h2 class="text-primary">Ideate</h2>
+        <p>It was clear that I needed to find solutions that targeted users’ ability to quickly and accurately find information on the site. With this in mind, I focused on brainstorming ideas that targeted search functionalities, navigation menu redesigns, and page layout clarity.</p>
+        <div class="row my-5">
+            <div class="col-4">
+                <h6>Problem #1</h6>
+                <p class="bigtxt">It takes too long for users to find helpful, relevant information</p>
+            </div>
+            <div class="col-8">
+                <h6>Possible Solutions</h6>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Optimize search results by adding filters</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Add metadata like categories, tags, last edited dates, etc. to pages so that they are more searchable</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Include a guide to all forms of incentives, as well as links to helpful articles found elsewhere on the site.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-4">
+                <h6>Problem #2</h6>
+                <p class="bigtxt">The homepage doesn’t help users navigate the site</p>
+            </div>
+            <div class="col-8">
+                <h6>Possible Solutions</h6>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Add a search bar to the homepage</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Move DOE news and updates to its own section - lower prominence on the page</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Rework the homepage to give average users more relevant information and guidance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-4">
+                <h6>Problem #3</h6>
+                <p class="bigtxt">Inconsistencies in layout and menus cause confusion</p>
+            </div>
+            <div class="col-8">
+                <h6>Possible Solutions</h6>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Consolidate pages to avoid repetition</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Remove or clarify tabbed sections - users often missed the ability to switch between in-page tabs</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card bg-lemon card-feature-quote px-4 py-3 border-0 shadow">Rework Energy Savings Hub to act more like an information directory for the users who visit the page.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="design">
+        <h2 class="text-primary">Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur. Leo sed ipsum pellentesque tempus dolor nullam mi dolor senectus. Et proin diam non tincidunt. Facilisi imperdiet tortor vitae elit lectus orci amet tristique sagittis. Convallis et blandit aliquam nisl leo dolor. A nisl aliquam volutpat eu turpis netus lorem convallis risus. Cras et habitasse mi volutpat.</p>
+        <p>Elementum amet viverra quis elit ante dolor sed velit. Et accumsan id amet eu. Arcu laoreet habitant elementum id. Sit platea aliquet a sollicitudin. At adipiscing enim arcu condimentum scelerisque eu. Posuere id vulputate interdum tempus. Vulputate accumsan sed lorem faucibus est dictum.</p>
+
+        <div class="card mb-3">
+            <div class="d-flex align-items-stretch">
+              <div class="flex-column">
+                <img src="/img/menus_energygov.gif" class="w-100 rounded-start" alt="...">
+              </div>
+              <div class="flex-column">
+                <div class="card-body">
+                  <h6>Revamped, Highly Intuitive Site Architecture</h6>
+                  <p>During testing, users gravitated towards the “Save Energy & Money” button, using it as a home base as they tried to find a page that helped them answer a question or find a resource.</p>
+                  <p>I wanted to retain this functionality, while making it easier for users to quickly find a relevant category relating to their search query.</p>
+                  <p>The new site navigation adds additional top-level pages that previously were only accessible after clicking into the “Save Energy & Money” page, reducing the number of clicks users take to reach their target page.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-5"
+        >
+          <div class="col-md-4 mb-0 text-body-secondary">
+            <a class="footerHeader">Dani Macuk</a><br />
+            <a class="footerSubHeader">UX/UI Designer & Creative</a>
+          </div>
+
+          <div class="nav col-md-4 justify-content-end">
+            <div class="row">
+              <div class="col">
+                <div class="row text-end">
+                  <div class="col">
+                    <a href="https://linkedin.com/in/dani-macuk" target="_blank"
+                      ><i
+                        class="bi bi-linkedin text-icing"
+                        style="font-size: 1.75rem"
+                      ></i
+                    ></a>
+                    <a href="https://github.com/danimacuk" target="_blank"
+                      ><i
+                        class="bi bi-github text-icing"
+                        style="padding-left: 10px; font-size: 1.75rem"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="row">Coded with love by Dani &copy; 2024</div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
